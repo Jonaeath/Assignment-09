@@ -1,0 +1,37 @@
+.box-container{
+   border: 1px solid lightblue;
+   border-radius: 5px;
+}
+
+.box-container-img img{
+    width: 311px;
+    height: 300px;
+}
+
+.button-container h1{
+    font-size: 20px;
+    padding-left: 5px;
+    color:  rgb(32, 175, 218) ;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container button{
+    height: 25px;
+    margin-top: 20px;
+    margin-right:5px ;
+    background-color: rgb(32, 175, 218);
+    border-radius: 5px;
+}
+.button-container button:hover{
+    color: orange;
+}
+
+.btn-position{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
